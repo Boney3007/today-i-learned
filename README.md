@@ -1,3 +1,53 @@
+With this website, a user can enter any fact he finds interesting while also including the URL for the source for the fact and he could specify in which category does the fact belong.
+
+The users can vote whether the fact is interesting or mind blowing or false.
+
+If the fact is false, it would be flagged as disputed.
+
+The website was made using HTML,CSS and with the help of the React framework.
+
+The database was created using Supabase which is a website that helps us to build databases and attach them to our websites in an easier manner.
+
+In future, I would like to add more features like checking whether the url given is valid or not along with adding pics of the fact given.
+
+Here is the URL of the website-https://today-i-learned-byboneyantony.netlify.app/
+
+A Screen shot of the website
+
+
+
+![Screenshot 2023-05-29 111920](https://github.com/Boney3007/today-i-learned/assets/103941601/4830e253-c2dd-4418-8761-a68552754a12)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

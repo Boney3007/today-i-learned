@@ -93,6 +93,19 @@ h1 {
   margin-bottom: 16px;
 }
 
+.source:link,
+.source:visited {
+  color: #a8a29e;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.source:active,
+.source:hover {
+  color: #3b82f6;
+}
+
 .fact {
   font-size: 20px;
   line-height: 1.4;
@@ -156,19 +169,6 @@ h1 {
 
 ul {
   list-style: none;
-}
-
-.source:link,
-.source:visited {
-  color: #a8a29e;
-  text-decoration: none;
-  margin-left: 10px;
-  transition: 0.3s;
-}
-
-.source:active,
-.source:hover {
-  color: #3b82f6;
 }
 
 .btn {
@@ -244,7 +244,7 @@ ul {
 
 @media (max-width: 1000px) {
   body {
-    /* padding: 32px 48px; */
+    padding: 32px 48px;
   }
 
   .factform {

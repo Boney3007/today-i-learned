@@ -57,7 +57,9 @@ function App() {
           .order("votesforinteresting", { ascending: false })
           .limit(1000);
         if (!error) setFacts(facts);
-        else alert("there was problem loading the data");
+        else {
+          alert("there was problem loading the data");
+        }
         setIsLoading(false);
       }
       getFacts();

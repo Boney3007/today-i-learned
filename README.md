@@ -10,7 +10,7 @@ The database was created using Supabase which is a website that helps us to buil
 
 In future, I would like to add more features like checking whether the url given is valid or not along with adding pics of the fact given.
 
-Here is the URL of the website-https://today-i-learned-byboneyantony.netlify.app/
+Here is the URL of the website-https://today-i-learned-boney.netlify.app/
 
 A Screen shot of the website
 

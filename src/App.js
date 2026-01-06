@@ -167,6 +167,9 @@ function NewFactForm({ setFacts, setShowForm }) {
       // 6. close the form
       setShowForm(false);
     }
+    else{
+      alert("Please enter valid data");
+    }
   }
   return (
     <form className="fact-form" onSubmit={handleSubmit}>

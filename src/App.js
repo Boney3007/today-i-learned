@@ -139,6 +139,7 @@ function NewFactForm({ setFacts, setShowForm }) {
   const [category, setCategory] = useState("");
   const [isUploading, setIsUploading] = useState(false);
   const textLength = text.length;
+  const limitexceeded = "Limit exceeded";
   async function handleSubmit(e) {
     // 1. prevent browser reload
     e.preventDefault();
@@ -178,9 +179,9 @@ function NewFactForm({ setFacts, setShowForm }) {
         placeholder="Share a fact with the world...."
         value={text}
         onChange={(e) => setText(e.target.value)}
-        disabled={isUploading}
+        disabled={textLength > 200 ? true : false || isUploading}
       />
-      <span>{200 - textLength}</span>
+      <span>{textLength > 200 ? limitexceeded : 200 - textLength}</span>
       <input
         type="text"
         placeholder="Trustworthy Source...."
